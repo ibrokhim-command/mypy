@@ -39,13 +39,7 @@ as for legacy code.
 Here is a small example to whet your appetite (Python 3):
 
 ```python
-from typing import Iterator
-
-def fib(n: int) -> Iterator[int]:
-    a, b = 0, 1
-    while a < n:
-        yield a
-        a, b = b, a + b
+docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 ```
 See [the documentation](http://mypy.readthedocs.io/en/stable/introduction.html) for more examples.
 
